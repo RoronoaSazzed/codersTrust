@@ -1,0 +1,357 @@
+.first-div{
+    background-image: url(../images/main_background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 500px;
+}
+#nav{
+    color: white;
+}
+@media (max-width: 760px){
+    #navbar{
+    background-color: black;
+            }
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   color: white;
+   padding: 1% 0 1% 0;
+}
+.margin-navbar{
+    margin-top: 20px;
+}
+
+.logo-and-button-margin{
+    margin: 30px;
+}
+
+@keyframes example {
+        from {color: white}
+        to {color: #AFC2CA;
+        opacity: .6;}  
+}
+
+.h-one-d-one{
+    margin-top: 100px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.P-one-d-1{
+    color: white;
+    font-size: 20px;
+    margin-top:-25px;
+}
+
+.white1{
+    color: white;
+    font-size: 15px;
+    padding: 0 60px 0 60px;
+}
+
+.white1:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0 60px 0 60px;
+}
+
+.white2{
+    color: white;
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+}
+
+.white2:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+}
+@media (max-width: 760px){
+.button-trial{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    background-color: #00b22b;
+    float: center;
+}
+}
+@media (min-width: 760px){
+    .button-trial{
+    padding: 10px 0 10px 0;
+    background-color: #00b22b;
+    float: right;
+            }
+    }
+@media (max-width: 760px){
+.button-trial2{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    background-color: #00b22b;
+    float: center;
+}
+}
+@media (min-width: 760px){
+    .button-trial2{
+    padding: 10px 0 10px 0;
+    background-color: #00b22b;
+
+            }
+    }
+
+.button-trial:hover{
+    padding: 10px 0 10px 0;
+    background-color: #009324;
+    animation-name: trial;
+    animation-duration: 1s;
+    transition: all 1s;
+}
+
+@keyframes trial{
+        from {color: #00b22b}
+        to {color: #009324;
+            opacity: .8;
+        }  
+}
+
+.button-learn-more{
+    padding: 10px 20px 10px 0;
+    background-color: transparent;
+    border: 1px solid white;
+}
+@media (max-width: 760px){
+    .button-learn-more{
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+}
+
+.button-learn-more:hover{
+    padding: 10px 0 10px 20px;
+    background-color: #3F484C;
+    opacity: .6;
+    border: 1px solid white;
+}
+
+
+.margin-d-one-btn{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* 2nd div starts */
+
+.second-div{
+    min-height: 300px;
+}
+.margin-second-div-content{
+    margin-top: 50px;
+}
+
+
+/* 3rd div starts */
+
+.third-div{
+    min-height: 480px;
+    background-color: #FAFAFA;
+}
+
+.margin-third-div-content{
+    margin-top: 50px;
+}
+
+.white3{
+    color: white;
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+}
+
+.white3:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+}
+
+.button-learn-more-blue{
+    padding: 10px 0 10px 0;
+    background-color: #0483d3;
+}
+
+.button-learn-more-blue:hover{
+    padding: 10px 0 10px 0;
+    background-color: #0370B5;
+}
+
+/* 4th div starts  */
+
+.fourth-div{
+    min-height: 500px;
+}
+
+.border{
+    border: 1px solid lightgrey;
+    background-color: #FAFAFA;
+}
+.imgRed{
+    background-color: #E83200;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+.imgRed>img{
+    margin-left: -5px;
+}
+.imgPur{
+    background-color: #9635BB;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+.imgPur>img{
+    margin-left: -5px;
+}
+.imgGre{
+    background-color: #00B22B;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+.imgGre>img{
+    margin-left: -5px;
+}
+
+.margin-forth-div-content{
+    margin-top: 75px;
+}
+
+/* 5th div starts */
+
+
+
+
+.fifth-div{
+    background-color: #0483D3;
+    min-height: 375px;
+}
+
+.fifth-div-content{
+    margin-top: 50px;
+}
+
+.white4{
+    color: #0483D3;
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+}
+
+.white4:hover{
+    text-decoration: none;
+    color: #0483D3;
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+}
+
+
+.button-learn-more-white{
+    padding: 10px 0 10px 0;
+    background-color: white;
+}
+
+.button-learn-more-white:hover{
+    padding: 10px 0 10px 0;
+    background-color: #CDE6F6;
+}
+
+.h-5-white{
+    color: #EFFFFF;
+}
+
+.p-5-white{
+    color: #EFFFFF;
+}
+
+/* 6th div starts */
+
+.sixth-div{
+    min-height: 375px;
+}
+
+.margin-sixth-div-content{
+    margin-top: 50px;
+}
+
+/* 7th div start */
+
+.seventh-div{
+    background-color: #FAFAFA;
+    min-height: 80px;
+}
+@media (max-width: 760px){
+    .imgBorder{
+        margin-bottom: 15px;
+              }
+}
+.margin-seventh-div-content{
+    margin-top: 30px;
+}
+
+/* 8th div starts */
+
+.margin-eighth-div-content{
+    margin-top: 25px;
+}
+
+
+
+.white1{
+    color: white;
+    font-size: 15px;
+    padding: 0 60px 0 60px;
+}
+
+.white1:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0 60px 0 60px;
+}
+
+.button-subscribe{
+    padding: 10px 0 10px 0;
+    background-color: #333333;
+}
+
+.button-subscribe:hover{
+    padding: 10px 0 10px 0;
+    background-color: #333333;
+}
+
+/* Final div */
+
+.margin-final-content{
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-top: 1px lightgrey;
+    min-height: 80px;
+    
+}
+@media (max-width: 760px){
+    .divMargin{
+    margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
