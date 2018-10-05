@@ -1,11 +1,108 @@
-.first-div{
+/*
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+
+font-family: 'Amaranth', sans-serif; paragraph
+font-family: 'Oswald', sans-serif; Header
+font-family: 'Anton', sans-serif; menu
+font-family: 'Encode Sans Condensed', sans-serif; footer link
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    color: #f99d1c;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 0.67em;
+    margin-bottom: .67em;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 0em;
+    margin-bottom: 1.1em;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 17px;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+
+h5 {
+    font-size: 12px;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+}
+
+h6 {
+    font-size: 11px;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+}
+
+p {
+    font-family: 'Amaranth', sans-serif;
+    line-height: 2;
+    font-size: 14px;
+    color: #747474;
+}
+
+.divOne, .divTwo, .divThree, .divFour{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*.first-div{
     background-image: url(../images/main_background.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     min-height: 500px;
+}*/
+
+.divOne{
+    background-image: url(../images/sectionOneBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
 }
+
+.divTwo{
+    background-color: #ecf0f1;
+}
+
+.columnDesign{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.divThree{
+    background-color: #273b6d;
+}
+
+/* Coded re designed up until this point */
+
 #nav{
     color: white;
 }
