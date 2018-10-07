@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Coders Trust</title>
+        <title>CodersTrust</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
         <!-- font integration -->
-        <link href="https://fonts.googleapis.com/css?family=Amaranth|Anton|Encode+Sans+Condensed|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Francois+One|Encode+Sans+Condensed|Oswald|Acme" rel="stylesheet">
 
         <!-- linking css file with html -->
         <link href="css/style.css" type="text/css" rel="stylesheet">
@@ -34,9 +34,9 @@
 
         <!-- 1st div starts -->
 
-        <div class="container-fluid divOne">
-            <div class="container">
-                <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid divOne text-center center-block">
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">toggle navigation</span>
@@ -44,7 +44,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="#"><img  class="img-responsive" src="images/coders_trust.png" alt=""></a>
+                        <img class="ctLogo" src="images/coders_trust.png" alt=""/>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -52,22 +52,21 @@
                                 <a href="#">Features</a>
                             </li>
                             <li>
-                                <a href="#">Learn and Earn path</a>
+                                <a href="#">courses</a>
                             </li>
                             <li>
-                                <a href="#">Pricing</a>
+                                <a href="#">free trial</a>
                             </li>
                             <li>
-                                <a href="#">Sign In</a>
+                                <a href="#">login</a>
                             </li>
-                            <li>
-                                <a href="#">Star free trial</a>
-                            </li>                       
                         </ul>
                     </div>
                 </div>
+            </div>
 
-                <h1>learn to code. make money<br>anytime. anywhere</h1>
+            <div class="container">
+                <h1 class="mainHeader">learn to code. make money<br>anytime. anywhere</h1>
                 <h3>pay for your education with your future earnings.</h3>
                 <a href="#" class="btn btnCodersTrust">start 14 day free trial</a>
                 <a href="#" class="btn btnCodersTrust">learn more</a>
@@ -126,20 +125,34 @@
                     <a href="#" class="btn btnCodersTrust">learn more</a>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
-                    <div>
-                        <i class="fa fa-code fa-2x"></i>
-                        <h4>technical skills</h4>
-                        <p>20 blocks</p>
+                    <div class="skills">
+                        <div class="goku">
+                            <i class="fa fa-cog fa-3x"></i>
+                        </div>
+                        <div class="vegeta">
+                            <h3>technical skills</h3>
+                            <p>20 blocks</p>
+                        </div>
                     </div>
-                    <div>
-                        <i class="fa fa-code fa-2x"></i>
-                        <h4>coding skills</h4>
-                        <p>10 blocks</p>
+
+                    <div class="skills">
+                        <div class="goku">
+                            <i class="fa fa-code fa-3x"></i>
+                        </div>
+                        <div class="vegeta">
+                            <h3>coding skills</h3>
+                            <p>10 blocks</p>
+                        </div>
                     </div>
-                    <div>
-                        <i class="fa fa-code fa-2x"></i>
-                        <h4>freelancing skills</h4>
-                        <p>8 blocks</p>
+
+                    <div class="skills">
+                        <div class="goku">
+                            <i class="fa fa-money fa-3x"></i>
+                        </div>
+                        <div class="vegeta">
+                            <h3>freelancing skills</h3>
+                            <p>8 blocks</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,7 +162,7 @@
         <!-- 5th div starts  -->
 
         <div class="container-fluid divFive">
-            <div class="container">
+            <div class="container text-center center-block">
                 <h2>let us finance your education - repay with a small portion of your future income</h2>
                 <p>show you are serious in your trial period hrough commitment & dedication & we will fully finance your education. you can also choose to pay with a monthly subscription</p>
                 <a class="btn btnCodersTrust">learn more</a>
@@ -159,33 +172,66 @@
         <!-- 6th div starts -->
 
         <div class="container-fluid divSix">
+            <h2 class="text-center">our courses</h2>
             <div class="container">
-                <h2>try all features free for 14 days</h2>
-                <p>the trial period is your chance to test drive our learn & earn platform. Also our chance to see if you are serious, commited & dedicated to your new career.</p>
-                <a href="#" class="btn btnCodersTrust">start free trial</a>
-                <h4>no credit card required</h4>
+                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
+                    <h3>graphics design</h3>
+                    <img class="img-responsive" src="images/GD.jpg" alt=""/>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
+                    <h3>responsive web design</h3>
+                    <img class="img-responsive" src="images/WD.jpg" alt=""/>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
+                    <h3>wordpress theme development</h3>
+                    <img class="img-responsive" src="images/WP.jpg" alt=""/>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
+                    <h3>digital marketing</h3>
+                    <img class="img-responsive" src="images/DM.jpg" alt=""/>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
+                    <h3>android app development</h3>
+                    <img class="img-responsive" src="images/AD.jpg" alt=""/>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
+                    <h3>content writing</h3>
+                    <img class="img-responsive" src="images/CW.jpg" alt=""/>
+                </div>
             </div>
         </div>
+        <a href="#" class="btn btnCodersTrust text-center center-block">sign up now</a>
+
+
 
         <!-- 7th div starts -->
 
         <div class="container-fluid divSeven">
             <div class="container">
-                <h2>what the press is saying</h2>
+                <h2 class="text-center">what the press is saying</h2>
                 <div class="col-md-3 col-sm-6 col-xs-12 columnDesign">
-                    <img class="img-responsive" src="images/USA-today.png" alt=""/>
+                    <a href="#"><img class="img-responsive" src="images/USA-today.png" alt=""/></a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 col-xs-12 columnDesign">
-                    <img class="img-responsive" src="images/forbes.png" alt=""/>
+                    <a href="#"><img class="img-responsive" src="images/forbes.png" alt=""/></a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 col-xs-12 columnDesign">
-                    <img class="img-responsive" src="images/tech-crunch.png" alt=""/>
+                    <a href="#"><img class="img-responsive" src="images/tech-crunch.png" alt=""/></a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 col-xs-12 columnDesign">
-                    <img class="img-responsive" src="images/WSJ.png" alt=""/>
+                    <a href="#"><img class="img-responsive" src="images/WSJ.png" alt=""/></a>
                 </div>
             </div>
         </div>
@@ -195,37 +241,14 @@
         <!-- div eight -->
 
         <div class="container-fluid divEight">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
-                    <h3>graphics design</h3>
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
-                    <h3>responsive web design</h3>
-                </div>
+            <div class="container text-center center-block">
+                <h2>try all features free for 14 days</h2>
+                <p>the trial period is your chance to test drive our learn & earn platform. Also our chance to see if you are serious, commited & dedicated to your new career.</p>
+                <a href="#" class="btn btnCodersTrust">start free trial</a>
+                <h4>no credit card required</h4>
             </div>
-
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
-                    <h3>wordpress theme development</h3>
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
-                    <h3>digital marketing</h3>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
-                    <h3>android app development</h3>
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
-                    <h3>content writing</h3>
-                </div>
-            </div>
-            <a href="#" class="btn btnCodersTrust">sign up now</a>
         </div>
+
 
         <div class="container-fluid divNine">
             <div class="container">
@@ -252,23 +275,17 @@
         </div>
 
         <div class="container-fluid divSocial">
-            <div class="container">
-                <a href="#" class="socialIcon"><i class="fa fa-facebook-f"></i></a>
-                <a href="#" class="socialIcon"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="socialIcon"><i class="fa fa-instagram"></i></a>
+            <div class="container text-center">
+                <h5>Get Social</h5>
+                <a href="#" class="socialIcon"><i class="fa fa-facebook-f fa-2x"></i></a>
+                <a href="#" class="socialIcon"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="#" class="socialIcon"><i class="fa fa-instagram fa-2x"></i></a>
             </div>
         </div>
 
 
 
         <!-- body part end -->
-
-
-
-        <!-- ::::: java script integration ::::: -->
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
         <!-- bootstrap & html5 boilerplate integration for js start -->       
         <script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>

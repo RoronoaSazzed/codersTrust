@@ -3,11 +3,21 @@
 @media (min-width: 768px) {}
 @media (min-width: 1200px) {}
 
-font-family: 'Amaranth', sans-serif; paragraph
+font-family: 'Lora', serif; paragraph 
 font-family: 'Oswald', sans-serif; Header
-font-family: 'Anton', sans-serif; menu
+font-family: 'Francois One', sans-serif; menu
 font-family: 'Encode Sans Condensed', sans-serif; footer link
 */
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #273b6d;
+}
+
+::selection {
+    color: white; 
+    background: #273b6d;
+}
 
 h1,
 h2,
@@ -16,7 +26,7 @@ h4,
 h5,
 h6 {
     font-family: 'Oswald', sans-serif;
-    color: #f99d1c;
+    color: #273b6d;
     line-height: 1.5;
     text-transform: capitalize;
 }
@@ -58,10 +68,53 @@ h6 {
 }
 
 p {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Lora', serif;
     line-height: 2;
-    font-size: 14px;
+    font-size: 16px;
     color: #747474;
+    text-transform: capitalize;
+}
+
+.navbar-default{
+    background-color: rgba(39, 59, 109,0.8);
+    min-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: transparent;
+}
+
+.navbar-default .navbar-nav li a{
+    font-family: 'Francois One', sans-serif;
+    text-shadow: none;
+    font-size: 18px;
+    color: #bdc3c7;
+    transition: all 300ms;
+    text-transform: capitalize;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #273b6d;
+}
+
+.navbar-default .navbar-toggle{
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    background-color: transparent;
+    border-color: #273b6d;
+    border: 2px solid #273b6d;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #16a085;
+}
+
+.ctLogo{
+    margin: 5px;
 }
 
 .divOne, .divTwo, .divThree, .divFour, .divFive, .divSix, .divSeven, .divEight, .divNine{
@@ -69,25 +122,50 @@ p {
     padding-bottom: 50px;
 }
 
-/*.first-div{
-    background-image: url(../images/main_background.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    min-height: 500px;
-}*/
-
 .divOne{
-    background-image: url(../images/sectionOneBackground.png);
+    background-image: url(../images/sectionOneBackground-2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
+    min-height: 100vh;
 }
 
-.divTwo{
+.divOne a{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.btnCodersTrust{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #273b6d;
+    padding: 15px 25px;
+    border-radius: 0px;
+    box-shadow: 0px 3px 5px black;
+    transition: all 200ms;
+}
+
+.btnCodersTrust:hover{
+    color: white;
+    background-color: #16a085;
+    box-shadow: 0px 5px 7px black;
+}
+
+.mainHeader{
+    font-size: 55px;
+    font-family: 'Acme', sans-serif;
+}
+
+i{
+    color: #273b6d;
+}
+
+.divThree{
     background-color: #ecf0f1;
 }
 
@@ -97,358 +175,124 @@ p {
     margin-bottom: 30px;
 }
 
-.divThree{
+.skills{
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.goku{
+    flex-order: 1;
+    background-color: #55efc4;
+    flex: 3;
+    display: grid;
+    place-items: center;
+}
+
+.vegeta{
+    flex-order: 2;
+    background-color: #273b6d;
+    flex: 7;
+    display: grid;
+    place-items: center;
+}
+
+.vegeta h3,
+.vegeta p{
+    color: white;
+}
+
+.divFive{
     background-color: #273b6d;
 }
 
-/* Coded re designed up until this point */
-
-#nav{
+.divFive h2,
+.divFive p{
     color: white;
 }
-@media (max-width: 760px){
-    #navbar{
-    background-color: black;
-            }
-}
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-   color: white;
-   padding: 1% 0 1% 0;
-}
-.margin-navbar{
-    margin-top: 20px;
+
+.divSix{
+    min-height: 0px;
 }
 
-.logo-and-button-margin{
-    margin: 30px;
+.divSix img{
+    transition: all 300ms;
+    box-shadow: 0px 3px 7px black;
 }
 
-@keyframes example {
-        from {color: white}
-        to {color: #AFC2CA;
-        opacity: .6;}  
+.divSix img:hover{
+    transform: scale(1.05);
 }
 
-.h-one-d-one{
-    margin-top: 100px;
+.divSix h3{
+    border-left: 4px solid #273b6d;
+    padding-left: 10px;
+}
+
+/*.divSix a{
+    width: 50%;
+}*/
+
+.divSeven{
+    background-color: #ecf0f1;
+}
+
+.divNine{
+    min-height: 0px;
+    background-color: rgba(39, 59, 109,0.9);
+}
+
+.divNine h4{
+    color: whitesmoke;
+    letter-spacing: .5px;
+}
+
+.divNine p{
+    color: #bdc3c7;
+}
+
+.divSocial{
+    min-height: 15vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #273b6d;
+}
+.divSocial h5{
+    color: #ecf0f1;
+    letter-spacing: .5px;
+}
+
+.divSocial i{
+    color: #ecf0f1;
+    transition: 100ms;
+}
+
+.divSocial i:hover{
     color: white;
-    font-size: 50px;
-    font-weight: bold;
+    text-shadow: 0px 0px 10px;
 }
 
-.P-one-d-1{
-    color: white;
-    font-size: 20px;
-    margin-top:-25px;
+.socialIcon{
+    padding: 15px;
+    margin: 0px 10px;
 }
 
-.white1{
-    color: white;
-    font-size: 15px;
-    padding: 0 60px 0 60px;
-}
-
-.white1:hover{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 0 60px 0 60px;
-}
-
-.white2{
-    color: white;
-    font-size: 15px;
-    padding: 0 80px 0 80px;
-}
-
-.white2:hover{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 0 80px 0 80px;
-}
-@media (max-width: 760px){
-.button-trial{
-    padding: 10px 0 10px 0;
-    width: 100%;
-    background-color: #00b22b;
-    float: center;
-}
-}
-@media (min-width: 760px){
-    .button-trial{
-    padding: 10px 0 10px 0;
-    background-color: #00b22b;
-    float: right;
-            }
+@media (max-width: 767px) {
+    .mainHeader {
+        font-size: 25px;
     }
-@media (max-width: 760px){
-.button-trial2{
-    padding: 10px 0 10px 0;
-    width: 100%;
-    background-color: #00b22b;
-    float: center;
-}
-}
-@media (min-width: 760px){
-    .button-trial2{
-    padding: 10px 0 10px 0;
-    background-color: #00b22b;
-
-            }
+    h3 {
+        font-size: 16px;
     }
 
-.button-trial:hover{
-    padding: 10px 0 10px 0;
-    background-color: #009324;
-    animation-name: trial;
-    animation-duration: 1s;
-    transition: all 1s;
-}
+    .divOne a{
+        display: block;
+        margin-top: 15px;
+    }
 
-@keyframes trial{
-        from {color: #00b22b}
-        to {color: #009324;
-            opacity: .8;
-        }  
-}
-
-.button-learn-more{
-    padding: 10px 20px 10px 0;
-    background-color: transparent;
-    border: 1px solid white;
-}
-@media (max-width: 760px){
-    .button-learn-more{
-    padding: 10px 20px 10px 20px;
-    width: 100%;
-    margin-top: 10px;
-    background-color: transparent;
-    border: 1px solid white;
-}
-}
-
-.button-learn-more:hover{
-    padding: 10px 0 10px 20px;
-    background-color: #3F484C;
-    opacity: .6;
-    border: 1px solid white;
-}
-
-
-.margin-d-one-btn{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-/* 2nd div starts */
-
-.second-div{
-    min-height: 300px;
-}
-.margin-second-div-content{
-    margin-top: 50px;
-}
-
-
-/* 3rd div starts */
-
-.third-div{
-    min-height: 480px;
-    background-color: #FAFAFA;
-}
-
-.margin-third-div-content{
-    margin-top: 50px;
-}
-
-.white3{
-    color: white;
-    font-size: 15px;
-    padding: 0 80px 0 80px;
-}
-
-.white3:hover{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 0 80px 0 80px;
-}
-
-.button-learn-more-blue{
-    padding: 10px 0 10px 0;
-    background-color: #0483d3;
-}
-
-.button-learn-more-blue:hover{
-    padding: 10px 0 10px 0;
-    background-color: #0370B5;
-}
-
-/* 4th div starts  */
-
-.fourth-div{
-    min-height: 500px;
-}
-
-.border{
-    border: 1px solid lightgrey;
-    background-color: #FAFAFA;
-}
-.imgRed{
-    background-color: #E83200;
-    padding-top: 20px;
-    padding-bottom: 24px;
-}
-.imgRed>img{
-    margin-left: -5px;
-}
-.imgPur{
-    background-color: #9635BB;
-    padding-top: 20px;
-    padding-bottom: 24px;
-}
-.imgPur>img{
-    margin-left: -5px;
-}
-.imgGre{
-    background-color: #00B22B;
-    padding-top: 20px;
-    padding-bottom: 24px;
-}
-.imgGre>img{
-    margin-left: -5px;
-}
-
-.margin-forth-div-content{
-    margin-top: 75px;
-}
-
-/* 5th div starts */
-
-
-
-
-.fifth-div{
-    background-color: #0483D3;
-    min-height: 375px;
-}
-
-.fifth-div-content{
-    margin-top: 50px;
-}
-
-.white4{
-    color: #0483D3;
-    font-size: 15px;
-    padding: 0 80px 0 80px;
-}
-
-.white4:hover{
-    text-decoration: none;
-    color: #0483D3;
-    font-size: 15px;
-    padding: 0 80px 0 80px;
-}
-
-
-.button-learn-more-white{
-    padding: 10px 0 10px 0;
-    background-color: white;
-}
-
-.button-learn-more-white:hover{
-    padding: 10px 0 10px 0;
-    background-color: #CDE6F6;
-}
-
-.h-5-white{
-    color: #EFFFFF;
-}
-
-.p-5-white{
-    color: #EFFFFF;
-}
-
-/* 6th div starts */
-
-.sixth-div{
-    min-height: 375px;
-}
-
-.margin-sixth-div-content{
-    margin-top: 50px;
-}
-
-/* 7th div start */
-
-.seventh-div{
-    background-color: #FAFAFA;
-    min-height: 80px;
-}
-@media (max-width: 760px){
-    .imgBorder{
-        margin-bottom: 15px;
-              }
-}
-.margin-seventh-div-content{
-    margin-top: 30px;
-}
-
-/* 8th div starts */
-
-.margin-eighth-div-content{
-    margin-top: 25px;
-}
-
-
-
-.white1{
-    color: white;
-    font-size: 15px;
-    padding: 0 60px 0 60px;
-}
-
-.white1:hover{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 0 60px 0 60px;
-}
-
-.button-subscribe{
-    padding: 10px 0 10px 0;
-    background-color: #333333;
-}
-
-.button-subscribe:hover{
-    padding: 10px 0 10px 0;
-    background-color: #333333;
-}
-
-/* Final div */
-
-.margin-final-content{
-    margin-top: 20px;
-    padding: 20px;
-    padding-bottom: 10px;
-    border-top: 1px lightgrey;
-    min-height: 80px;
-    
-}
-@media (max-width: 760px){
-    .divMargin{
-    margin-bottom: 20px;
+    h2{
+        font-size: 25px;
+    }
+    .divSix a{
+        width: 80%;
     }
 }
-
-
-
-
-
-
-
-

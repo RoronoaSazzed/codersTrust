@@ -1,8 +1,0 @@
-primary #273b6d
-
-secondary black & white;
-
-Oswald Header
-Amaranth Paragraph
-Anton Menu
-Encode Sans Condensed footer link
